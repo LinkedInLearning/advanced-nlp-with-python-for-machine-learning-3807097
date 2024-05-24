@@ -1,34 +1,25 @@
-# Advanced NLP with Python for Machine Learning [Revision 2024 Q2]
-This is the repository for the LinkedIn Learning course `Advanced NLP with Python for Machine Learning [Revision 2024 Q2]`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Advanced NLP with Python for Machine Learning
+This is the repository for the LinkedIn Learning course `Advanced NLP with Python for Machine Learning`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+![lil-thumbnail-url]
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+This course is for anyone who wants to learn more advanced NLP methods. Instructor Gwendolyn Stripling, PhD, begins with a look at the fundamental concepts and principles of NLP, including the evolution and significance of natural language processing. She then reviews some NLP and Python basics—and introduces the NLP library spaCy—before jumping into more modern techniques and advancements in natural language processing using Transformer Models like GPT and BERT. Methods such as supervised fine-tuning, parameter efficient fine-tuning (PEFT), and retrieval-augmented generation (RAG) give you the foundational knowledge you need to improve large language model (LLM) performance. Learn the ways you can apply NLP in your applications and day-to-day, including how to analyze customer sentiments Each chapter ends with a challenge and solution, so you can test your knowledge as you go.
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+### Instructor
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+![avatar]
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+Gwendolyn Stripling
+
+Machine Learning and Artificial Intelligence Content Developer
+          
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/gwendolyn-stripling?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
-
+[lil-course-url]: https://www.linkedin.com/learning/advanced-nlp-with-python-for-machine-learning-revision-2024-q2
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGTubKeur8sMA/learning-public-crop_675_1200/0/1716585791557?e=2147483647&v=beta&t=jYbEsmvdD9sYaBUmc_dtWym36Qn6-YkngoU68wEvvIc
+[avatar]: https://media.licdn.com/dms/image/D560DAQGkBuohyKFspw/learning-author-crop_200_200/0/1694723104809?e=1717192800&v=beta&t=UnBwX0YOnSKGAnsdvvkTlVRzdlSLPLTczeA8JacqFd0
